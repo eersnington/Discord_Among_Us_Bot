@@ -33,6 +33,8 @@ async def help(ctx):
     embed.add_field(name='🤨 Sus', value='``amb sus {tag}``', inline=True)
     embed.add_field(name='🔍 Wiki', value='``amb wiki {search query}``', inline=True)
     embed.add_field(name='🎲 Game', value='``amb newgame {code} {server loc}``', inline=True)
+    embed.add_field(name='🎲 Game', value='``amb mute (while in a voice channel)``', inline=True)
+    embed.add_field(name='🎲 Game', value='``amb unmute (while in a voice channel) ``', inline=True)
     embed.set_footer(icon_url=ctx.author.avatar_url, text=f"Requested by {ctx.author.name}")
     await ctx.send(embed=embed)
 
