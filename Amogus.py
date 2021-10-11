@@ -155,5 +155,5 @@ async def on_command_error(ctx, error):
                           color=discord.Color.gold())
     await ctx.send(embed=embed)
 
-client.run("NzU5Mzg2MjcxMjYwMjEzMjk4.X28vkw.2f6dz_f_fjL6NfoKixa6R1sLVCU")
+client.run("")
 
